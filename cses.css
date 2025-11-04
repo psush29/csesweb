@@ -1,0 +1,116 @@
+#logo {
+  font-family: 'Audiowide', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing:2px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite, glow 2.5s ease-in-out infinite alternate;
+  text-shadow: 0 0 15px #00c6ff, 0 0 30px #0072ff, 0 0 60px #00a2ff;
+}
+
+/* Moving shimmer */
+@keyframes shine {
+  0% { background-position: 0%; }
+  100% { background-position: 200%; }
+}
+
+/* Soft pulsing glow */
+@keyframes glow {
+  from {
+    text-shadow:
+      0 0 10px #00c6ff,
+      0 0 30px #0072ff,
+      0 0 60px #00a2ff;
+  }
+  to {
+    text-shadow:
+      0 0 20px #66ffff,
+      0 0 40px #00e0ff,
+      0 0 80px #0099ff;
+  }
+}
+#navs{
+    background-color: #0a0a0a;   
+    height:50px;
+
+
+}
+#whole{
+    margin-right:200px;
+}
+#home1,#home2,#home3, #home4{
+    height:270px;
+    width:450px;
+    color:black;
+    display:inline-block;
+     
+    padding:5px;
+}
+#home1,#home2{
+    margin:top 20px;
+}
+#home1{
+    background-color: #B3E5FC;
+}
+#home2{
+    background-color: #BBDEFB;
+}
+#home3{
+    background-color:#90CAF9;
+}
+#home4{
+    background-color:#42A5F5;
+
+}
+#home1,#home3{
+    margin-left:250px;
+}
+
+#whole{
+    display:inline-block;
+}
+
+#controls{
+    margin-right:250px;
+} 
+body{
+    background-color: #0A0A0A;
+}
+#home, #system, #logo{
+    margin-left:250px;
+}
+#home,#course,#contest,#stats,#about{
+    text-decoration:none;
+    color:#BBDEFB;
+}
+#horizontal{
+    margin-left:250px;
+    margin-right:135px;
+}
+#login{
+    color:white;
+    margin-left:730px;
+    font-size:18px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+hr{
+    color:black;
+}
+.user-circle {
+  font-size: 15px;
+  color: #00ffff; 
+  background-color: black;
+  border: 2px solid #00ffff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+#system{
+    color:#E0E0E0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
